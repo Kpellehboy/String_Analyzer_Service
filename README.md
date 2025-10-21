@@ -2,7 +2,6 @@
 
 A RESTful API service for analyzing strings and storing their computed properties.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -32,9 +31,7 @@ A RESTful API service for analyzing strings and storing their computed propertie
 ```bash
 git clone [YOUR_GITHUB_REPO_LINK]
 cd string-analyzer-service
-```
 
----
 
 ### 🧪 2. Create & Activate Virtual Environment (Windows)
 
@@ -178,7 +175,7 @@ A pre-configured Postman collection is included:
 
    * Try:
 
-     * A palindrome → `"Madam I'm Adam"`
+     * A palindrome → `"Madam I'm Elijah"`
      * A single word → `"hello"`
      * A long string → `"This is a much longer test string"`
 
@@ -213,7 +210,7 @@ A pre-configured Postman collection is included:
   Field            | Value                    
 
   API Base URL     | https://stringanalyzerservice-production-5cbd.up.railway.app/strings
-  GitHub Repo Link | [YOUR_GITHUB_REPO_LINK]  
+  GitHub Repo Link | https://github.com/Kpellehboy/String_Analyzer_Service/tree/master
   Full Name        | Elijah M. Flomo
   Email            | elijahmflomo@gmail.com
 
