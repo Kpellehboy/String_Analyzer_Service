@@ -206,12 +206,10 @@ A pre-configured Postman collection is included:
 
 
 ## 📌 Submission Details
-
-  Field            | Value                    
-
-  API Base URL     | https://stringanalyzerservice-production-5cbd.up.railway.app/strings
-  GitHub Repo Link | https://github.com/Kpellehboy/String_Analyzer_Service/tree/master
-  Full Name        | Elijah M. Flomo
-  Email            | elijahmflomo@gmail.com
+                  
+  API Base URL:      https://stringanalyzerservice-production-5cbd.up.railway.app/strings
+  GitHub Repo Link:  https://github.com/Kpellehboy/String_Analyzer_Service/tree/master
+  Full Name :        Elijah M. Flomo
+  Email:             elijahmflomo@gmail.com
 
 
