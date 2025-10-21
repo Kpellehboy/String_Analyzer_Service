@@ -208,7 +208,7 @@ A pre-configured Postman collection is included:
 ## 📌 Submission Details
                   
   API Base URL:      https://stringanalyzerservice-production-5cbd.up.railway.app/strings
-  GitHub Repo Link:  https://github.com/Kpellehboy/String_Analyzer_Service/tree/master
+  GitHub Repo Link:  https://github.com/Kpellehboy/String_Analyzer_Service.git
   Full Name :        Elijah M. Flomo
   Email:             elijahmflomo@gmail.com
 
