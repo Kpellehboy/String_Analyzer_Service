@@ -1,9 +1,9 @@
-# 🪄 Backend Wizards - Stage 1: String Analyzer Service
+# String Analyzer Service
 
 A RESTful API service for analyzing strings and storing their computed properties.
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
   Component | Technology                                             
 
@@ -16,9 +16,9 @@ A RESTful API service for analyzing strings and storing their computed propertie
 
 
 
-## 🚀 Setup Instructions (Windows OS)
+##  Setup Instructions (Windows OS)
 
-### 🧾 Prerequisites
+###  Prerequisites
 
 * Python 3.10+
 * `pip` package manager
@@ -26,14 +26,14 @@ A RESTful API service for analyzing strings and storing their computed propertie
 
 
 
-### 🔧 1. Clone the Repository
+###  1. Clone the Repository
 
 ```bash
 git clone [YOUR_GITHUB_REPO_LINK]
 cd string-analyzer-service
 
 
-### 🧪 2. Create & Activate Virtual Environment (Windows)
+###  2. Create & Activate Virtual Environment (Windows)
 
 ```bash
 # Create virtual environment
@@ -45,7 +45,7 @@ python -m venv venv
 
 ---
 
-### 📦 3. Install Dependencies
+###  3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ---
 
-### ▶️ 4. Run the Application Locally
+###  4. Run the Application Locally
 
 ```bash
 # Option 1: Use Flask CLI
@@ -71,9 +71,9 @@ http://127.0.0.1:5000
 
 ---
 
-## 🗺️ API Documentation
+##  API Documentation
 
-### 🔹 Base URL (Local)
+###  Base URL (Local)
 
 ```
 http://127.0.0.1:5000
@@ -81,7 +81,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 💻 API Endpoints
+##  API Endpoints
 
 ### 1. **Analyze/Create String**
 
@@ -97,8 +97,8 @@ http://127.0.0.1:5000
 
 * **Responses:**
 
-  * ✅ `201 Created`
-  * ❌ `400 Bad Request`, `422 Unprocessable Entity`, `409 Conflict`
+  *  `201 Created`
+  *  `400 Bad Request`, `422 Unprocessable Entity`, `409 Conflict`
 
 ---
 
@@ -108,8 +108,8 @@ http://127.0.0.1:5000
 * **Note:** `<string_value>` must be URL-encoded.
 * **Responses:**
 
-  * ✅ `200 OK`
-  * ❌ `404 Not Found`
+  *  `200 OK`
+  *  `404 Not Found`
 
 ---
 
@@ -129,8 +129,8 @@ http://127.0.0.1:5000
 
 * **Responses:**
 
-  * ✅ `200 OK`
-  * ❌ `400 Bad Request`
+  *  `200 OK`
+  *  `400 Bad Request`
 
 
 
@@ -147,8 +147,8 @@ http://127.0.0.1:5000
 
 * **Responses:**
 
-  * ✅ `200 OK`
-  * ❌ `400 Bad Request`, `422 Unprocessable Entity`
+  *  `200 OK`
+  *  `400 Bad Request`, `422 Unprocessable Entity`
 
 
 ### 5. **Delete String**
@@ -157,19 +157,19 @@ http://127.0.0.1:5000
 * **Note:** `<string_value>` must be URL-encoded.
 * **Responses:**
 
-  * ✅ `204 No Content`
-  * ❌ `404 Not Found`
+  *  `204 No Content`
+  *  `404 Not Found`
 
 
-## 🧪 Testing with Postman
+##  Testing with Postman
 
-### 🔸 Postman Collection
+###  Postman Collection
 
 A pre-configured Postman collection is included:
 
 * **File:** `String_Analyzer_Service.postman_collection.json`
 
-### 🔹 Recommended Test Steps
+###  Recommended Test Steps
 
 1. **Analyze (POST /strings):**
 
@@ -199,13 +199,13 @@ A pre-configured Postman collection is included:
    * Delete a string, then try fetching it again (should return 404).
 
 
-## 🌍 Deployment
+##  Deployment
 
 * **Deployment URL:**
  https://stringanalyzerservice-production-5cbd.up.railway.app/strings
 
 
-## 📌 Submission Details
+##  Submission Details
                   
   API Base URL:      https://stringanalyzerservice-production-5cbd.up.railway.app/strings
   GitHub Repo Link:  https://github.com/Kpellehboy/String_Analyzer_Service.git
